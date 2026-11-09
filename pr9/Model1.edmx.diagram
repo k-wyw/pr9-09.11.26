@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="855ca6905cb94bb2b64f3bd60ac08881" Name="Diagram1">
+        <EntityTypeShape EntityType="WaffleShopModel.Order" Width="1.5" PointX="0.75" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="WaffleShopModel.OrderDetail" Width="1.5" PointX="3" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="WaffleShopModel.Product" Width="1.5" PointX="0.75" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="WaffleShopModel.sysdiagrams" Width="1.5" PointX="2.625" PointY="4.25" IsExpanded="true" />
+        <AssociationConnector Association="WaffleShopModel.FK__OrderDeta__Order__4F7CD00D" ManuallyRouted="false" />
+        <AssociationConnector Association="WaffleShopModel.FK__OrderDeta__Produ__5070F446" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
